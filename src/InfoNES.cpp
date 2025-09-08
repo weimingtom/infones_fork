@@ -41,6 +41,10 @@
 #include "InfoNES_pAPU.h"
 #include "K6502.h"
 
+#if MY_USE_MINLIB
+#include "win32/sdl_api.h"
+#endif
+
 /*-------------------------------------------------------------------*/
 /*  NES resources                                                    */
 /*-------------------------------------------------------------------*/
@@ -598,6 +602,14 @@ void InfoNES_Cycle()
   {    
     int nStep;
 
+#if MY_USE_MINLIB
+	CanvasSetColor(WINDOW_BGCOLOR);
+	if (MainFrameGetMsg() != 0) 
+	{
+		exit(0);
+	}
+#endif
+
     // Set a flag if a scanning line is a hit in the sprite #0
     if ( SpriteJustHit == PPU_Scanline &&
       PPU_ScanTable[ PPU_Scanline ] == SCAN_ON_SCREEN )
@@ -643,6 +655,11 @@ void InfoNES_Cycle()
 
     // HSYNC Wait
     InfoNES_Wait();
+
+#if MY_USE_MINLIB
+	MainFrameRefresh();
+#endif
+	
   }
 }
 
