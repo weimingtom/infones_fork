@@ -22,3 +22,11 @@ https://github.com/rvboards/d1_nezha_doc/blob/master/zh_mkdocs/docs/NES模拟器
 https://whycan.com/t_5139.html  
 * (TODO) site.txt, copy.txt, search qt-everywhere-opensource-src-4.8.6_xiaozhi_v2.tar.gz
 * (TODO) How to build or cross compile Qt4, search build_host_x86.txt, build_x_riscv64.txt
+
+## (TODO) InfoNES ASM version by ye781205
+* 梁山派, nes, asm code from ye781205 (from 正点原子论坛 http://www.openedv.com ? )
+* https://gitee.com/lcsc/liangshan-pi-nes-game-console
+* https://gitee.com/lcsc/game-ex-base-code
+* https://blog.csdn.net/2302_81678505/article/details/144169437
+* https://whycan.com/p_76805.html
+* https://github.com/VeiLiang/BoloRTT/tree/master/bsp/f1c/package/vnes
