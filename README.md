@@ -13,10 +13,10 @@
 ## (TODO) qt4-nes
 * qt4-nes_v13_boot.tar.gz, qt4-nes_v5_xiaozhi.tar.gz (old, use v13_boot instead)       
 * (origin) https://github.com/nejidev/arm-NES-linux  
+* (origin) 《小白通过buildroot搭建哪吒D1开发环境详细步骤，并且在HDMI显示器上玩上了魂斗罗(基于QT5)》  
+https://whycan.com/t_7253.html  
+(origin) qt4-NES4_5_512_480_640_480.7z  
+(origin) qt4-NES4_5_512_480_640_480_try_high_speed.7z  
+https://github.com/rvboards/d1_nezha_doc/blob/master/zh_mkdocs/docs/NES模拟器.md  
 * whycan, 为了V3S不吃灰，移植NES游戏  
 https://whycan.com/t_5139.html  
-* 《小白通过buildroot搭建哪吒D1开发环境详细步骤，并且在HDMI显示器上玩上了魂斗罗(基于QT5)》  
-https://whycan.com/t_7253.html  
-qt4-NES4_5_512_480_640_480.7z  
-qt4-NES4_5_512_480_640_480_try_high_speed.7z  
-https://github.com/rvboards/d1_nezha_doc/blob/master/zh_mkdocs/docs/NES模拟器.md  
