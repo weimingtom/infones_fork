@@ -3,10 +3,30 @@
 
 ## Ref
 * (origin? search InfoNES097JRC1_SDL.tar.gz) https://www.aep-emu.de/Emus-file-emus_detail-id-464.html
-* infones_rpi_v1.rar
-* infones_src_v5_min_calloc.rar
-* InfoNES097JRC1_SDL.tar.gz
+* (rpi3) infones_rpi_v1.rar
+```
+树莓派3b运行infones，GPIO操纵中景园1.3寸ips屏（240*240）显示。
+有点卡，因为逻辑与刷屏是同一个线程，这个情况是正常的，
+因为我在windows下用类似的方式刷屏也会卡。
+InfoNES的Windows版用了多线程和定时器，所以才不会卡。
+目前没有输入功能，所以只能看。显示区域是溢出的，
+右边有一小块被截掉了，因为NES的分辨率比240*240稍大。
+移植不容易，最初我基于SDL版的代码去移植，没成功。
+这个成功的版本是基于windows版的，而且ips屏用
+的是RGB565而非24位RGB，所以还需要另外想办法转换，
+反正这里又是折腾了好久才成功。
+移植infones目前只是尝试，还没有完善它的计划，
+现在只是概念试验性质，不过看来这个思路是可行的，
+刷屏帧率可以到达24fps（如果用pthread多线程的话）
+
+(TODO) How to convert 24bit RGB to RGB565
+```
+* (vc6) infones_src_v5_min_calloc.rar
+* (origin) InfoNES097JRC1_SDL.tar.gz
+* (win) InfoNES097JRC1_SDL_v2.rar
+* (stm32) infones_stm32f407ve_v1.rar
 * https://github.com/weimingtom/wmt_stm32_study/?tab=readme-ov-file#infones-stm32f4--esp32
+* https://github.com/weimingtom/wmt_rpi_study#infones
 * https://github.com/weimingtom/wmt_link_collections_in_Chinese/blob/master/emulator.md
 * (TODO) https://gitee.com/whycan/f1c100s_buildroot/tree/master/board/f1c100s/apps/infones
 
