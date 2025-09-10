@@ -6,6 +6,9 @@
 * (origin, dead) http://prdownloads.sourceforge.jp/infones/19061/InfoNES097JRC1_SDL.tar.gz
 * (origin, dead) http://sourceforge.jp/projects/infones
 * (origin, dead) http://www.geocities.co.jp/SiliconValley/5604/infones.html
+* https://web.archive.org/web/20041201054524/http://infones.seesaa.net/article/418671.html
+* https://web.archive.org/web/20080118074851/http://mopeopage.hp.infoseek.co.jp
+* (InfoNES v0.76bJ for PocketPC) https://web.archive.org/web/20080118074851/http://mopeopage.hp.infoseek.co.jp/file/InfoNES076aJ_src.zip
 * (origin? search InfoNES097JRC1_SDL.tar.gz) https://www.aep-emu.de/Emus-file-emus_detail-id-464.html
 * (rpi3) infones_rpi_v1.rar
 ```
