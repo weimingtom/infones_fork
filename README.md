@@ -11,7 +11,7 @@
 * (TODO) https://gitee.com/whycan/f1c100s_buildroot/tree/master/board/f1c100s/apps/infones
 
 ## (TODO) qt4-nes
-* qt4-nes_v13_boot.tar.gz  
+* qt4-nes_v13_boot.tar.gz, qt4-nes_v5_xiaozhi.tar.gz (old, use v13_boot instead)       
 * (origin) https://github.com/nejidev/arm-NES-linux  
 * whycan, 为了V3S不吃灰，移植NES游戏  
 https://whycan.com/t_5139.html  
