@@ -20,3 +20,5 @@ https://whycan.com/t_7253.html
 https://github.com/rvboards/d1_nezha_doc/blob/master/zh_mkdocs/docs/NES模拟器.md  
 * whycan, 为了V3S不吃灰，移植NES游戏  
 https://whycan.com/t_5139.html  
+* (TODO) site.txt, copy.txt, search qt-everywhere-opensource-src-4.8.6_xiaozhi_v2.tar.gz
+* (TODO) How to build or cross compile Qt4, search build_host_x86.txt, build_x_riscv64.txt
