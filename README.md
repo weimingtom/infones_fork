@@ -2,6 +2,10 @@
 [WIP] My InfoNES fork
 
 ## Ref
+* (origin) https://web.archive.org/web/20080107090123/http://www.geocities.co.jp/SiliconValley/5604/infones.html
+* (origin, dead) http://prdownloads.sourceforge.jp/infones/19061/InfoNES097JRC1_SDL.tar.gz
+* (origin, dead) http://sourceforge.jp/projects/infones
+* (origin, dead) http://www.geocities.co.jp/SiliconValley/5604/infones.html
 * (origin? search InfoNES097JRC1_SDL.tar.gz) https://www.aep-emu.de/Emus-file-emus_detail-id-464.html
 * (rpi3) infones_rpi_v1.rar
 ```
