@@ -1,0 +1,7 @@
+# mkdir /mnt/SDCARD
+# mount /dev/mmcblk0p1 /mnt/SDCARD/
+# cd /mnt/SDCARD/infones/
+# ls ./libstdc++.so.6.0.22
+(need this libstdc++.so.6)
+# ls ./libstdc++.so.6
+# SDL_NOMOUSE=1 LD_LIBRARY_PATH=. ./InfoNES ./DEMO.NES
