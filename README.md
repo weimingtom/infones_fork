@@ -37,6 +37,25 @@ InfoNES的Windows版用了多线程和定时器，所以才不会卡。
 * https://github.com/weimingtom/wmt_link_collections_in_Chinese/blob/master/emulator.md
 * (TODO) https://gitee.com/whycan/f1c100s_buildroot/tree/master/board/f1c100s/apps/infones
 
+## (WIP) (TODO) How to build for LiuLianPi V3S (Allwinner v3s, ARM 32bit Cortex-A7)  
+* Get toolchain gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.tar.xz  
+https://w.electrodragon.com/w/ARM_GCC  
+https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/arm-linux-gnueabihf/  
+https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/arm-linux-gnueabihf/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.tar.xz  
+* Cross compile static libs libSDL.a and libz.a, see  
+https://github.com/weimingtom/nofrendo_fork/blob/master/vendor/v3s/work_v3s_readme.txt  
+* See src/liulianpi_v3s/Makefile, tar xf gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf.tar.xz to /home/wmt/work_v3s/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf
+* $ cd src/liulianpi_v3s  
+* $ make clean
+* $ make -j8
+* Copy file "InfoNES" and "DEMO.NES" and "libstdc++.so.6" (from libstdc++.so.6.0.22 of gcc toolchain) to tf card
+* Login UART (COMx) console with Putty
+* \# mkdir /mnt/SDCARD
+* \# mount /dev/mmcblk0p1 /mnt/SDCARD/
+* \# cd /mnt/SDCARD/infones/
+* \# ls ./libstdc++.so.6
+* \# SDL_NOMOUSE=1 LD_LIBRARY_PATH=. ./InfoNES ./DEMO.NES
+
 ## (TODO) qt4-nes
 * qt4-nes_v13_boot.tar.gz, qt4-nes_v5_xiaozhi.tar.gz (old, use v13_boot instead)       
 * (origin) https://github.com/nejidev/arm-NES-linux  
