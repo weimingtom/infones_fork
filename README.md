@@ -1,6 +1,10 @@
 # infones_fork
 [WIP] My InfoNES fork
 
+## TODO
+* Upload liulianpi v3s unofficial firmware
+* Port to liulianpi f1c100s
+
 ## Ref
 * (origin) https://web.archive.org/web/20080107090123/http://www.geocities.co.jp/SiliconValley/5604/infones.html
 * (origin, dead) http://prdownloads.sourceforge.jp/infones/19061/InfoNES097JRC1_SDL.tar.gz
